@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.armacode.yovalgoapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name="MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="InfoViolenciaActivity" ></activity>
+        <activity android:name="DerechosActivity" ></activity>
+        <activity android:name="TestimoniosActivity" ></activity>
+        <activity android:name="AyudaActivity" ></activity>        
+        <!-- Quiz -->
+        <activity android:name="QuizActivity" ></activity>
+        <!-- Resultado A -->
+        <activity android:name="ResultadoA" ></activity>
+        <!-- Resultado B1 -->
+        <activity android:name="ResultadoB1" ></activity>
+        <!-- Resultado B2 -->
+        <activity android:name="ResultadoB2" ></activity>
+        <!-- Resultado C -->
+        <activity android:name="ResultadoC" ></activity>
+        <!-- Denuncia -->
+        <activity android:name="DenunciaActivity" ></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/resultado_b">
+
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="110dp"
+	    android:gravity="center_horizontal"
+	    android:text="@string/resultadob1"
+	    android:textColor="#FF6633"
+	    android:textSize="25sp"
+	    android:textStyle="bold" />
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="20dp"
+	    android:gravity="center_horizontal"
+	    android:text="@string/diagnosticob1"
+	    android:textColor="#FF6633"
+	    android:textSize="14sp"/>
+	<Button
+	    android:paddingTop="60dp"
+        android:id="@+id/btn_volver_rb1"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_volver"
+        android:text="@string/volver" />
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YoValgo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="quiz_title">¿Es peligrosa mi relacion?</string>
+    <string name="introduccion_quiz">Se dice que prevenir es mejor que lamentar. Contesta las siguientes preguntas para saber si estas en una relacion que puede llegar a ser peligrosa para ti. Responde con la mayor sinceridad:</string>
+    
+    <string name="si">Si</string>
+    <string name="a_veces">A veces</string>
+    <string name="rara_vez">Rara vez</string>
+    <string name="no">No</string>
+    <string name="btn_evaluar">Evaluar mi relacion</string><string name="pregunta1">1. ¿Sientes que tu pareja constantemente te está controlando?</string>
+    <string name="pregunta2">2. ¿La persona con quien tienes tu relacion, te acusa de infidelidad o de que actúas en forma sospechosa?</string>
+    <string name="pregunta3">3. ¿Has perdido contacto con amigas, familiares, compañeras/os de trabajo para evitar que tu pareja se moleste?</string>
+    <string name="pregunta4">4. ¿Te critica y humilla, en público o en privado, sobre tu aparaciencia, tu forma de ser, el modo en que haces tus tareas hogareñas?</string>
+    <string name="pregunta5">5. ¿Controla estrictamente tus ingresos o el dinero que te entrega, originando discusiones?</string>
+    <string name="pregunta6">6. Cuando quiere que cambies de comportamiento, ¿te presiona con el silencia, con la indiferencia o te priva de dinero?</string>
+    <string name="pregunta7">7. ¿Tu pareja tiene cambios bruscos de humos o se comporta distinto contigo en público, como si fuera otra persona?</string>
+    <string name="pregunta8">8. ¿Sientes que estás en permanente tensión y que, hagas lo que hagas, él se irrita o te culpabiliza?</string>
+    <string name="pregunta9">9. ¿Te ha golpeado con sus manos, con un objeto, o te ha lanzado cosas cuando se enoja o discuten?</string>
+    <string name="pregunta10">10. ¿Te ha amenzado alguna vez con un objeto o arma, o con matarse él, a ti o a algún miembro de la familia?</string>
+    <string name="pregunta11">11. ¿Cedes a sus requerimientos sexuales por temor o te ha forzado a tener relaciones sexuales?</string>
+    <string name="pregunta12">12. Después de un episodio violento, ¿él se muestra cariñoso y atento, te regala cosas y te promete que nunca más volverá a golpearte o insultarte y que &quot;todo cambiará?</string>
+    <string name="pregunta13">13. ¿Has buscado o has recibido ayuda por lesiones que él te ha causado? (primeros auxilios, atención médica, psicológica o legal)</string>
+    <string name="pregunta14">14. ¿Es violento con los hijos/as o con otras personas?</string>
+    <string name="pregunta15">15. ¿Ha sido necesario llamar a la policía o lo has intentado al sentir que tu vida y la de los tuyos han sido puestas en peligro por tu pareja?</string>
+    <string name="resultadoa">RELACION LIBRE DE VIOLENCIA</string>
+    <string name="diagnosticoa">Tu relacion muestra pocos o ningun rasgo de violencia</string>
+    <string name="volver">Volver</string>
+    <string name="resultadob1">Relacion con indicios de violencia</string>
+    <string name="diagnosticob1">Tu relacion muestra conflictos y algunos de ellos empiezan a mostrar violencia, ten cuidado de que esto no empeore, presta atencion a conducta la de tu pareja.</string>
+    <string name="resultadob2">Relacion Violenta</string>
+    <string name="diagnosticob2">La violencia es parte de tu dinámica de pareja, es importante que solicites ayuda profesional y considera la posibilidad de abandonar tu casa temporalmente</string>
+    <string name="resultadoc">Violencia Peligrosa</string>
+    <string name="diagnosticoc"> Vives violencia severa, debes buscar apoyo con urgencia pues tu integridad física y mental corre riesgo, busca un lugar donde puedas salvaguardarte.</string>
+    <string name="denuncia_title">Denuncia Anonima</string>
+    <string name="introduccion_denuncia">Si sufres o sufriste de algun episodio de violencia, denuncialo. Mediante este formulario para denunciar a la comunidad manteniendo tu identidad en secreto utilizando un nickname, tu testimonio sera de gran ayuda.</string>
+    <string name="form_nombre">Nombre(nickname)</string>
+    <string name="form_ciudad">Departamento</string>
+    <string name="form_testimonio">Testimonio</string>
+    <string name="form_enviar">Enviar Denuncia</string>
+	<string-array name="ciudades">
+        <item>BENI</item>
+        <item>CHUQUISACA</item>
+        <item>COCHABAMBA</item>
+        <item>LA PAZ</item>
+        <item>ORURO</item>
+        <item>PANDO</item>
+        <item>POTOSI</item>
+        <item>SANTA CRUZ</item>
+    </string-array>
+	<string name="titulo_infoviolencia">¿Que es la violencia?</string>
+	<string name="violencia1">Las Naciones Unidas definen la violencia contra la mujer como &quot;todo acto de violencia de género que resulte, o pueda tener como resultado un daño físico, sexual o psicológico para la mujer, inclusive las amenazas de tales actos, la coacción o la privación arbitraria de libertad, tanto si se producen en la vida pública como en la privada&quot;.</string>
+	<string name="violencia2">La violencia de pareja se refiere al comportamiento de la pareja o ex pareja que causa daño físico, sexual o psicológico, incluidas la agresión física, la coacción sexual, el maltrato psicológico y las conductas de control.</string>
+	<string name="violencia3">La violencia sexual es cualquier acto sexual, la tentativa de consumar un acto sexual u otro acto dirigido contra la sexualidad de una persona mediante coacción por otra persona</string>
+	<string name="violencia4">La Violencia de Género – Antes y Ahora \nLa violencia de género ha existido a lo largo de la civilización en las diversas culturas; razón por la cual algunos de los estereotipos han sido interiorizados y perpetuados por la sociedad a través de los siglos. 
+
+El acceso a la educación y a la información ha permitido a las mujeres el desarrollar una independencia de criterio que ha aumentado sus posibilidades de no tolerar el abuso, discriminación y marginación.  De igual manera, el vivir en un mundo globalizado ha provocado gran movilidad de personas y consecuentemente de ideas, que han logrado que la sociedad tome conciencia de que la violencia de género existe y en dimensiones alarmantes a nivel mundial.</string>
+	<string name="titulo_derechos">Tus Derechos</string>
+	<string name="derecho1">¿Cuáles son los derechos que tienen las mujeres y su importancia en ejercerlos y ejercitarlos? \nLa Constitución Política del Estado Plurinacional de Bolivia, aprobada mediante referéndum el 29 de enero de 2009 otorga a ciudadanas y ciudadanos del país, sin distinción de raza, sexo, idioma, religión, opinión pública, origen, condición económica o social, una serie de derechos fundamentales que debemos conocerlos para ejercerlos sin temor a ningún tipo de presiones u obstáculos que pueden presentarse en el camino cuando se los demanda.</string>
+	<string name="derecho2">Derechos fundamentales reconocidos por la constitución:</string>
+	<string name="derecho3">- A la vida y a la integridad física, psicológica y sexual</string>
+	<string name="derecho4">- A no sufrir violencia física, sexual o psicológica.</string>
+	<string name="derecho5">- A prevenir, eliminar y sancionar la violencia de género y generacional</string>
+	<string name="derecho6">- A la alimentación, al agua y seguridad alimentaria.</string>
+	<string name="derecho7">- A la salud, educación, vivienda y servicios básicos</string>
+	<string name="derecho8">- A la seguridad social, en la forma determinada por la Constitución y las Leyes</string>
+	<string name="titulo_ayuda">¿Donde consiguo ayuda?</string>
+	<string name="ayuda_introduccion">Si sufres de algun episodio de violencia, no lo dudes busca ayuda!!</string>
+	<string name="telfayuda1">Línea gratuita: 800 104 100</string>
+	<string name="telfayuda2">Línea de emergencia: 156</string>
+	
+	<string name="ayudainst1">Centro de Información y Desarrollo de la Mujer (CIDEM)</string>
+	<string name="ayudadet1">C/ Boquerón 598 A, esq. Almirante Grau, edif. El Carmen 2, Mz., Zona San Pedro(La Paz), Telf: 249 0313 o 249 0358, Apoyo integral: legal, psicológico y social</string>
+	<string name="ayudainst2">Sartasi Warmi</string>
+	<string name="ayudadet2">C/ Colombia 561(La Paz), esq. Boquerón, Telf: 705 45707, Apoyo integral: legal, psicológico y social</string>
+	<string name="ayudainst3">Coordinadora de la Mujer</string>
+	<string name="ayudadet3">Telf: 244 4923(La Paz)</string>
+	<string name="ayudainst4">Brigada de Protección a la Familia</string>
+	<string name="ayudadet4">Av. Sucre esq. Calle Bolívar, edif. F.E.L.C.C., Distrito policial 4, calle 8 de Calacoto (La Paz), Telf: 228 5495 – 228 2211, Atención 24 horas</string>
+</resources>

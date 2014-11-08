@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_background">
+    
+    <include layout="@layout/actionbar_op_layout" />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            android:text="@string/denuncia_title"
+            android:textColor="#FF3300"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/introduccion_denuncia"
+            android:textColor="#FF3300"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+        <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+	        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+		        <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical" >
+		        	<TextView
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:text="@string/form_nombre"
+		            android:textColor="#006699"
+		            android:textSize="13sp" />
+			       <EditText
+			           android:id="@+id/et_nombre"
+			           android:inputType="text"
+			           android:layout_width="match_parent"
+			           android:layout_height="wrap_content"
+			           android:ems="10" >
+			           <requestFocus />
+			       </EditText>
+		        </LinearLayout>
+				<LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical" >
+		        	<TextView
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:text="@string/form_ciudad"
+		            android:textColor="#006699"
+		            android:textSize="13sp" />
+		        <Spinner
+		            android:id="@+id/sp_ciudad"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content" />
+		        </LinearLayout>
+		        <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical" >
+		        	<TextView
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:text="@string/form_testimonio"
+		            android:textColor="#006699"
+		            android:textSize="13sp" />
+		        	<EditText
+		                android:id="@+id/et_denuncia"
+		                android:layout_width="match_parent"
+			           android:layout_height="wrap_content"
+		                android:ems="10"
+		                android:inputType="textMultiLine" />
+		        </LinearLayout>
+		        <Button
+		        android:id="@+id/btn_enviar"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/form_enviar" />
+	        </LinearLayout>
+	        
+        </ScrollView>
+
+</LinearLayout>

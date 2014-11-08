@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    style="@style/ActionBarCompat">
+
+    <Button
+        android:id="@+id/btn_home"
+        style="@style/DashboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:paddingTop="5dp"
+        android:drawableTop="@drawable/btn_home" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:clickable="false"
+        android:scaleType="center"
+        android:layout_gravity="center"
+        android:src="@drawable/yovalgo_banner" />
+
+</LinearLayout>

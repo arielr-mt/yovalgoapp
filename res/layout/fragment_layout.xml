@@ -1,0 +1,49 @@
+<net.armacode.yovalgoapp.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="@drawable/main_background">
+	<!--  News Feed Button -->
+    <Button
+        android:id="@+id/btn_infoviolencia"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_infoviolencia"
+        android:text="¿Que es violencia?" />
+    
+	<!--  Friends Button -->
+    <Button
+        android:id="@+id/btn_derechos"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_derechos"
+        android:text="Tus Derechos" />
+    
+	<!--  Messages Button -->
+    <Button
+        android:id="@+id/btn_testimonios"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_testimonios"
+        android:text="Testimonios" />
+	
+    <!--  Places Button -->
+    <Button
+        android:id="@+id/btn_denuncia"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_denuncia"
+        android:text="Denuncia Anonima" />
+
+    <!--  Events Button -->
+    <Button
+        android:id="@+id/btn_ayuda"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_ayuda"
+        android:text="Donde hay ayuda" />
+
+    <!--  Photos Button -->
+    <Button
+        android:id="@+id/btn_quiz"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_quiz"
+        android:text="¿Relacion Violenta?" />
+
+</net.armacode.yovalgoapp.DashboardLayout>
